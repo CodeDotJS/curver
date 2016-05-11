@@ -19,7 +19,7 @@ const curver = require('curver');
 
 curver('packstat').then(currentVersion => {
 	console.log(currentVersion);
-	// => '1.0.4'
+	// { latestVersion: '1.0.4' }
 })
 
 ```
