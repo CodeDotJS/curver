@@ -1,0 +1,29 @@
+{
+  "name": "curver",
+  "version": "1.0.0",
+  "description": "Easily fetch the latest version of node module available on npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/curver.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "node",
+    "module",
+    "latest",
+    "current",
+    "version",
+    "scrap"
+  ],
+  "author": "Rishi Giri <rushforlinux@gmail.com> (http://rishigiri.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/curver/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/curver#readme"
+}
