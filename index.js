@@ -4,7 +4,7 @@ var cheerio = require('cheerio');
 var Promise = require('pinkie-promise');
 
 function remuseChars(getString) {
-	const finalVerp = getString.split('is')[0].trim();
+	var finalVerp = getString.split('is')[0].trim();
 
 	return finalVerp;
 }
