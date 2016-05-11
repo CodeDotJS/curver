@@ -20,7 +20,7 @@ module.exports = function (packageName) {
 		var $ = cheerio.load(res.body);
 
 		return {
-			latestVersion: remuseChars($('li').eq(11).text()) || null,
+			latestVersion: remuseChars($('li').eq(11).text()) || null
 		};
 	}).catch(function (err) {
 		if (err.statusCode === 404) {
