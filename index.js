@@ -19,7 +19,9 @@ module.exports = function (packageName) {
 	return got(url).then(function (res) {
 		var $ = cheerio.load(res.body);
 
-		return remuseChars($('.box li').eq(1).text()) || null;
+		return {
+			version: remuseChars($('.box li').eq(1).text()) || null
+		};
 	}).catch(function (err) {
 		if (err.statusCode === 404) {
 			err.message = 'Package doesn\'t exist';
